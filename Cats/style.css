@@ -12,6 +12,26 @@ background-size: cover;
 background-attachment: fixed;
 }
 
+img{
+   width: 280px;
+}
+
+
+/*   modificando gatos   */
+
+.gatos{
+   margin: 20px;
+   text-align: center;
+}
+
+
+
+
+
+
+
+
+
 .meow{
 display: flex;
 align-items: center;
@@ -19,24 +39,46 @@ justify-content: center;
 flex-direction: column;
 margin: 3px auto;
  color: #814929;
-   font-size: 25px;}
+   font-size: 30px;}
 
-   .header{
-      
-   }
+.header__main{
+   line-height: 1.5;
+   padding: 20px;
+   border: 2px solid #8149297e;
+   margin: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 60%;
+   font-size: 20px;
+   background-color: #8149297e;
+   color: #f7f7f7;
+}
+.header__main-p{
+   width: 50%;
+}
 
+.lol{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
 
 .header__ul{
    display: flex;
    align-items: center;
    justify-content: center;
+   margin-bottom: 90px;
 
 }
 
 .header__ul-li{
    display: inline-block;
    margin: 15px;
-   box-shadow: 0 0 10px #ea9dec;
 }
 
 .header__ul-li-a{
@@ -44,21 +86,36 @@ margin: 3px auto;
    padding: 15px;
    text-decoration: none;
    color: #f7f7f7;
-   border: 3px solid #ea9dec;
+   border: 3px solid #814929;
+   background-color: #8149297e;
 }
 
-.header__ul-li:hover{
+.header__ul-li-a:hover{
    box-shadow: 0 0 20px #f7f7f7 ;}
 
 .footer{
       position: absolute;
-      top: 2000px;
+      top: 3000px;
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 100vw;
-      color: #ea9dec;
+      width: 100%;
+      color: #814929;
       background-color: black;
 
+   }
+
+   .caty{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 3px auto;
+      color: #814929;
+      font-size: 25px;
+   }
+
+   .caty{
+      font-size: 32px;
    }
 
